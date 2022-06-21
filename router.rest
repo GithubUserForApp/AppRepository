@@ -13,4 +13,18 @@ Content-Type: application/json
 }
 
 ###
+POST https://college-newapp.herokuapp.com/userIssue/createUserIssue
+Content-Type: application/json
+
+{
+    "firstName": "AnkitaM",
+    "LastName": "Mishra",
+    "EmailId": "sharma1@gmail.com",
+    "Department": "Commerce",
+    "Role": "Admin",
+    "OppurtunityType": "Internship",
+    "EligiblityCriteria":"Any one can Apply"
+}
+
+###
 GET http://localhost:4000/userIssue/getUserIssues

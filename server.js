@@ -18,7 +18,7 @@ app.listen(port,function(){
 });
 
 app.get('/', (req,res)=>{
-    res.send("Hello");
+    res.send("Hello"); 
 });
 
 app.use(express.json());
